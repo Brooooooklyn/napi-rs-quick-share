@@ -1,0 +1,18 @@
+{
+  "name": "napi-rs-quick-share",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.40.6",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "packageManager": "yarn@3.6.0",
+  "devDependencies": {
+    "playwright-chromium": "^1.34.3"
+  }
+}
